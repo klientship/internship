@@ -40,3 +40,6 @@ https://startbootstrap.com/theme/resume<br />
 # Flutter
 Install flutter
 https://docs.flutter.dev/get-started/install/windows
+
+Best flutter resources<br/>
+https://github.com/Solido/awesome-flutter<br/>
