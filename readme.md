@@ -30,3 +30,10 @@ For viewing list of branch
 
 To switch between branches
 `git checkout <name-of-your-branch>`
+
+## Creating a Personal website
+Follow the steps in the below article
+https://pages.github.com
+
+Some templates you can download from here
+https://startbootstrap.com/theme/resume
