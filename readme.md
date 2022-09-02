@@ -1,6 +1,5 @@
-# Let get started
 
-## Git
+# Git
 
 + Git is a free and open-source distributed version control system.
 + Download & install git from https://git-scm.com
@@ -37,3 +36,7 @@ https://pages.github.com<br />
 
 Some templates you can download from here<br />
 https://startbootstrap.com/theme/resume<br />
+
+# Flutter
+Install flutter
+https://docs.flutter.dev/get-started/install/windows
