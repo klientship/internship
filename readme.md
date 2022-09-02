@@ -18,5 +18,15 @@ To commit
 To push
 `git push -u origin master`
 
-For clone repository
+For cloning repository
 `git clone <https://name-of-the-repository-link>`
+
+### Git Branches
+For creating branch
+`git branch <branch-name>`
+
+For viewing list of branch
+`git branch`
+
+To switch between branches
+`git checkout <name-of-your-branch>`
