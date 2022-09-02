@@ -38,8 +38,11 @@ Some templates you can download from here<br />
 https://startbootstrap.com/theme/resume<br />
 
 # Flutter
-Install flutter
+Install flutter & Read Documentation
 https://docs.flutter.dev/get-started/install/windows
+
+Installing packages
+https://pub.dev/
 
 Best flutter resources<br/>
 https://github.com/Solido/awesome-flutter<br/>
