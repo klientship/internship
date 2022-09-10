@@ -29,35 +29,35 @@ Machine learning
 
 Exercise 1: Solution
 
-Import Libraries numpy and pandas
-`import pandas as pd`
-`import numpy as np`
+Import Libraries numpy and pandas<br>
+`import pandas as pd`<br>
+`import numpy as np`<br>
 
-Read and Check out the Data using pandas
-`USAhousing = pd.read_csv('USA_Housing.csv')`
-`USAhousing.head()`
-`USAhousing.describe()`
-`USAhousing.info()`
-`USAhousing.columns`
+Read and Check out the Data using pandas<br>
+`USAhousing = pd.read_csv('USA_Housing.csv')`<br>
+`USAhousing.head()`<br>
+`USAhousing.describe()`<br>
+`USAhousing.info()`<br>
+`USAhousing.columns`<br>
 
-Training a Linear Regression Model
-X and y arrays
+Training a Linear Regression Model<br>
+X and y arrays<br>
 `X = USAhousing[['Avg. Area Income', 'Avg. Area House Age', 'Avg. Area Number of Rooms',
-               'Avg. Area Number of Bedrooms', 'Area Population']]`
-`y = USAhousing['Price']`
+               'Avg. Area Number of Bedrooms', 'Area Population']]`<br>
+`y = USAhousing['Price']`<br>
 
-Train Test Split
-`from sklearn.model_selection import train_test_split`
-`X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=101)`
+Train Test Split<br>
+`from sklearn.model_selection import train_test_split`<br>
+`X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=101)`<br>
 
-Creating and Training the Model
-`from sklearn.linear_model import LinearRegression`
-`lm = LinearRegression()`
-`lm.fit(X_train,y_train)`
+Creating and Training the Model<br>
+`from sklearn.linear_model import LinearRegression`<br>
+`lm = LinearRegression()`<br>
+`lm.fit(X_train,y_train)`<br>
 
-Model Evaluation
-`print(lm.intercept_)`
-`coeff_df = pd.DataFrame(lm.coef_,X.columns,columns=['Coefficient'])`
-`coeff_df`
+Model Evaluation<br>
+`print(lm.intercept_)`<br>
+`coeff_df = pd.DataFrame(lm.coef_,X.columns,columns=['Coefficient'])`<br>
+`coeff_df`<br>
 
 
